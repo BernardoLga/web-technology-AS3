@@ -1,0 +1,108 @@
+#container {
+    width: 960px;
+    height: 500px;
+/*    background-color: lightsteelblue;*/
+    margin: 0px auto 0px auto; 
+}
+
+header {
+    width: 960px;
+    height: 140px;
+    background-color: #ffffff;
+}
+
+
+nav {
+    width: 750px;
+    height: 52px;
+    line-height: 52px;
+    background-color: #f99f1b;
+    float: right;
+}
+nav a {
+   
+    font-size: 18px;
+      color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: auto 50px auto 60px;
+}
+nav a:hover {
+    color: gray;
+}
+
+#slider {
+    width: 960px;
+    height: 360px;
+    border: 1px solid green;
+    background: url(../images/SliderImage.jpg);
+   
+}
+
+#logobox {
+    width: 200px;
+    height: 78px;
+    float: left;
+    margin: auto 0 auto 20px;
+}
+
+.ordernow{
+	
+}
+	
+#slidercontent {
+    width: 280px;
+    height: 280px;    
+    margin: 50px auto 0px 600px; 
+}
+span{
+     color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.form-control{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+}
+select{
+    width: 150px;
+    height: 30px;
+    margin: 8px auto 10px auto;
+}
+
+h2{
+     color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+	padding-bottom: 12px;
+}
+label{
+     color: #ffffff;
+    font-family:sans-serif ;
+    font-size: 14px;
+}
+
+.locationinput{
+	float: left;
+	
+}
+.getdirectinosbtn{
+	float: right;
+	
+}
+
+form{
+	padding-bottom: 10px;
+}
+button{
+    background-color: #f99f1b;
+    border-radius: 30px;
+    margin-top: 20px;
+	border:thin;
+	border:#F99F1B;
+	padding: 5px 15px 5px 15px;
+	font-family: roboto, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20pt;
+	color: white;
+}

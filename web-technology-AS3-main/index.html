@@ -1,0 +1,68 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Burger Queen ordering menu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+     <div id="container">
+    
+        <header>
+        <div id="logobox">
+            
+         <img src="images/logo.jpg"/>
+            
+        </div>
+            
+        <nav>
+            <a href="index.html">Menu</a>
+            <a href="about.html">Exclusive Deals</a>
+            <a href="atthefair.html">Locate</a>
+            <a href="contact.html">Nutrition</a>
+        </nav>
+            
+            
+       
+        </header>
+       
+        <div id="slider">
+			<div id="ordernow">
+       		  <button type="button" class="ordernow">Order now</button>
+			</div>
+			
+            <div id="slidercontent">
+            <div class="input-group input-group-lg">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Enter your name</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+      </div>
+      <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+        <option selected>Select Item</option>
+        <option value="1">Bacon Queen</option>
+        <option value="2">BBQ Bacon Queen</option>
+        <option value="3">Grill Beff Queen</option>
+        <option value="4">Double Beff Queen</option>
+        <option value="5">Cheese Queen</option>
+        <option value="6">Double cheese Queen</option>
+        <option value="7">Chicken Queen</option>
+      </select>
+      <h2>Google Directions</h2>
+      <form class"enterlocation" action="http://maps.google.com/maps" method="get" target="_blank">
+        <label  for="saddr">Enter your location</label>
+        <input class= "locationinput" type="text" name="saddr" />
+        <input type="hidden" name="daddr" value="Durham College" />
+        <input class= "getdirectinosbtn" type="submit" value="Get directions" />
+     </form>
+      <button type="button" class="btn btn-danger">Submit</button>
+           
+            
+            </div>
+       
+        </div>
+    
+    
+</body>
+</html>
